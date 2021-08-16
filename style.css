@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+}
+
+#image1 {
+    height: 570px;
+    width: 570px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: "Haettenschweiler";
+}
+
+.line {
+    height: 7px;
+    width: 280px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#about {
+    background: linear-gradient(lime 55%, rgb(62, 190, 62) 45%,);
+}
+
+#myfavhobby {
+    overflow: hidden;
+    height: 800px;
+    color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.8;
+    background: linear-gradient(green 60%, limegreen 40%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#about {
+    padding: 50px;
+    text-align: center;
+    font-size: 40;
+    background: linear-gradient(blue, darkblue);
+}
+
+.menu {
+    list-style: none;
+    font-family: Verdana;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: cyan;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right:9px;
+    padding-bottom:5px;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.links:hover {
+    background-color: rgba(78, 228, 195, 0.801);
+    text-decoration: underline;
+}
+
+p {
+    font-size: larger;
+    font-weight: 100;
+    font-family: 'Times New Roman';
+}
